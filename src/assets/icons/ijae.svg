@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375pt" height="374.999991pt" viewBox="0 0 375 374.999991" version="1.2">
+<defs>
+<g>
+<symbol overflow="visible" id="glyph0-0">
+<path style="stroke:none;" d=""/>
+</symbol>
+<symbol overflow="visible" id="glyph0-1">
+<path style="stroke:none;" d="M 4.230469 -6.421875 C 2.289062 -6.421875 0.667969 -4.863281 0.667969 -2.894531 C 0.667969 -1.113281 2.289062 0.445312 4.230469 0.445312 C 6.296875 0.445312 7.917969 -1.113281 7.917969 -2.894531 C 7.917969 -4.863281 6.296875 -6.421875 4.230469 -6.421875 Z M 4.230469 -6.421875 "/>
+</symbol>
+<symbol overflow="visible" id="glyph0-2">
+<path style="stroke:none;" d="M 0.921875 -22.257812 L 0.921875 0 L 12.496094 0 L 12.496094 -22.257812 Z M 0.921875 -22.257812 "/>
+</symbol>
+<symbol overflow="visible" id="glyph0-3">
+<path style="stroke:none;" d="M 22.988281 -9.21875 L 22.988281 -22.289062 L 12.273438 -22.289062 L 12.273438 -9.921875 L 11.320312 -9.921875 L 11.320312 -13.894531 L 0.792969 -13.894531 L 0.792969 -9.21875 C 0.792969 4.039062 22.988281 4.039062 22.988281 -9.21875 Z M 22.988281 -9.21875 "/>
+</symbol>
+<symbol overflow="visible" id="glyph0-4">
+<path style="stroke:none;" d="M -0.890625 0 L 27.214844 0 L 13.164062 -23.8125 Z M -0.890625 0 "/>
+</symbol>
+<symbol overflow="visible" id="glyph0-5">
+<path style="stroke:none;" d="M 0.921875 -22.289062 L 0.921875 -0.03125 L 19.363281 -0.03125 L 19.363281 -7.535156 L 14.753906 -7.535156 L 14.753906 -8.488281 L 19.363281 -8.488281 L 19.363281 -13.832031 L 14.753906 -13.832031 L 14.753906 -14.785156 L 19.363281 -14.785156 L 19.363281 -22.289062 Z M 0.921875 -22.289062 "/>
+</symbol>
+</g>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(90.979004%,92.549133%,94.509888%);fill-opacity:1;" d="M 265.230469 113.878906 L 124.929688 113.878906 L 124.929688 173.90625 L 269.597656 173.90625 L 269.597656 113.878906 Z M 265.230469 169.539062 L 129.34375 169.539062 L 129.34375 118.292969 L 265.230469 118.292969 Z M 265.230469 169.539062 "/>
+<g style="fill:rgb(10.5896%,11.369324%,12.548828%);fill-opacity:1;">
+  <use xlink:href="#glyph0-0" x="154.766486" y="162.528214"/>
+</g>
+<g style="fill:rgb(94.119263%,29.019165%,25.489807%);fill-opacity:1;">
+  <use xlink:href="#glyph0-1" x="167.506639" y="162.528214"/>
+</g>
+<g style="fill:rgb(10.5896%,11.369324%,12.548828%);fill-opacity:1;">
+  <use xlink:href="#glyph0-2" x="176.147584" y="162.528214"/>
+</g>
+<g style="fill:rgb(10.5896%,11.369324%,12.548828%);fill-opacity:1;">
+  <use xlink:href="#glyph0-3" x="189.595644" y="162.528214"/>
+</g>
+<g style="fill:rgb(10.5896%,11.369324%,12.548828%);fill-opacity:1;">
+  <use xlink:href="#glyph0-4" x="213.503311" y="162.528214"/>
+</g>
+<g style="fill:rgb(10.5896%,11.369324%,12.548828%);fill-opacity:1;">
+  <use xlink:href="#glyph0-5" x="239.731794" y="162.528214"/>
+</g>
+</g>
+</svg>

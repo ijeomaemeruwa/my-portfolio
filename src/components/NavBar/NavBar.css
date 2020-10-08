@@ -1,0 +1,19 @@
+.logo img {
+    width: 250px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+}
+
+.nav a {
+    padding: 0 0.8rem;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif !important;
+    text-decoration: none !important;
+    color: var(--secondary-color);
+}
