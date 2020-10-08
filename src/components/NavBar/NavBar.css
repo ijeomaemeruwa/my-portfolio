@@ -1,6 +1,3 @@
-.logo img {
-    width: 250px;
-}
 
 .nav {
     display: flex;
@@ -15,5 +12,5 @@
     font-size: 1.5rem;
     font-family: 'Josefin Sans', sans-serif !important;
     text-decoration: none !important;
-    color: var(--secondary-color);
+    color: var(--button-color);
 }

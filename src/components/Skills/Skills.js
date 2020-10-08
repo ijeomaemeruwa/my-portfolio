@@ -7,26 +7,26 @@ export const Skills = () => {
                   </svg>
     return (
     <div className="container">
-    <div className="skills text-center" style={{ height: '100%' }}>
-    <h3 className="strike">Skills</h3> 
+    <div className="skills text-left" style={{ height: '100%' }}>
+    <h2 className="strike" style={{color: '#b5c5d4', letterSpacing: '1px'}}>Skills</h2> 
     <p>Here are the tools and technologies I work with:</p>
 
    <div className="icons_container container my-5 mx-auto">
    <div className="row">
   
-   <div className="col-md-3 col-sm-6 text-left">
+   <div className="col-md-3 col-sm-6 text-left" style={{color: '#e8ecf1'}}>
     <p>{caret} HTML</p>
     <p>{caret} CSS</p>
     <p>{caret} JavaScript (ES6+)</p>
    </div>
 
-   <div className="col-md-3 col-sm-6 text-left">
+   <div className="col-md-3 col-sm-6 text-left" style={{color: '#e8ecf1'}}>
    <p>{caret} BootStrap</p>
    <p>{caret} SASS</p>
    <p>{caret} React + Redux</p>
    </div>
 
-   <div className="col-md-3 col-sm-6 text-left">
+   <div className="col-md-3 col-sm-6 text-left" style={{color: '#e8ecf1'}}>
    <p>{caret} Git</p>
    <p>{caret} GitHub</p>
    <p>{caret} FireBase</p>

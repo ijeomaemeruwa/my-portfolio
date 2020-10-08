@@ -5,65 +5,52 @@ export class MyWork extends Component {
     state = {
         projects: [
 
-            {
-              id: 1,
-              title: 'Gratia bookings',
-              description: 'A simple static hotel, flight and cargo bookings site',
-              image: '',
-              full_description: '',
-              technologies: '',
-              road_block: '',
-              lessons: '',
-              github: '',
-              live_link: ''
-            },
-            {
-              id: 2,
-              title: 'Compact App',
-              description: 'A mini app to store your favorite resources as url files',
-              image: '',
-              full_description: '',
-              technologies: '',
-              road_block: '',
-              lessons: '',
-              github: '',
-              live_link: ''
-            },
+          {
+            id: 1,
+            title: 'Compact App',
+            description: 'A client side application that uploads and saves url as files.Also, utilizes firebase firestore database to persist data offline and save to database',
+            image: <img src={require('../../assets/compact-desktop.png')} alt="compact app" style={{width: '100%', height: '300px'}}/>,
+            technologies: '+HTML +CSS +Javascript +Firebase',
+            github: 'https://github.com/ijeomaemeruwa/compact-app',
+            live_link: 'https://compactapp.netlify.app/',
+            message: 'Status: In progress'
+          },
+          {
+            id: 2,
+            title: 'Bookclub',
+            description: 'Built the user interface with react and integrated the NYTimes api to fetch and display API data using react hooks',
+            image: '',
+            technologies: '+React +API +React-Bootstrap',
+            github: 'https://github.com/ijeomaemeruwa/bookclub',
+            live_link: 'https://bookclub-app.netlify.app/'
+          },
+
             {
               id: 3,
-              title: 'Bookclub',
-              description: 'A web app created to view the current New York times bestsellers',
+              title: 'Gratia bookings',
+              description: 'A static travel, hotel and cargo bookings website with contact form and newsletter integrated with firebase and mailchimo respectively',
               image: '',
-              full_description: '',
-              technologies: '',
-              road_block: '',
-              lessons: '',
+              technologies: '+React +React-Bootstrap +Firebase',
               github: '',
-              live_link: ''
+              live_link: '',
+              message: 'Staus: Private Repo'
             },
             {
               id: 4,
               title: 'Kanban app',
-              description: 'A productivity tool',
+              description: 'A productivity tool that uses the trello api to create a dashboard used to manage task and manage projects.',
               image: '',
-              full_description: '',
-              technologies: '',
-              road_block: '',
-              lessons: '',
-              github: '',
-              live_link: ''
+              technologies: '+React +ContextAPI +REST API',
+              github: 'https://github.com/ijeomaemeruwa/kanban_app',
+              live_link: '',
+              message: 'Status: In progress'
             },
             {
               id: 5,
               title: 'Asos clone',
-              description: 'Asos face and body category ecommerce site',
+              description: 'Asos ecommerce website clone with a twist',
               image: '',
-              full_description: '',
-              technologies: '',
-              road_block: '',
-              lessons: '',
-              github: '',
-              live_link: ''
+              message: 'Status: Coming soon'
             }
 
         ]

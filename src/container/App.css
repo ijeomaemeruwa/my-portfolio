@@ -11,7 +11,7 @@ font-family: 'Jost', sans-serif;
   --primary-color: #fdfdfd;
   --secondary-color: #657683;
   --accent-color: #feefea;
-  --text-color-1: #1c1d20;
+  --text-color-1: #0d0d0d;
   --strike-color: rgba(215, 168, 150, 0.7);
   --button-color: #b5c5d4;
   --button-accent: #e8ecf1; 
@@ -20,6 +20,7 @@ font-family: 'Jost', sans-serif;
 html, body {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
   }
 
   *, *::after, *::before {
@@ -32,8 +33,8 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
   font-family: 'Quicksand', sans-serif !important;
-  background: var(--primary-color) !important;
-  color: var(--text-color-1) !important;
+  background: var(--text-color-1) !important;
+  color: var(--primary-color) !important;
 }
 
 h1, h2, h3, h4 {

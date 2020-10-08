@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Hero/Hero.css'
 import { Link } from 'react-router-dom'
+import Fade from 'react-reveal/Fade';
+
 
 export const Hero = () => {
     const arrow = <svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -11,6 +13,7 @@ export const Hero = () => {
     <div>
      <div className="hero-container container mx-auto my-5">
 
+    <Fade>
     <div className="hero_content col-md-8 col-sm-6">
     <h4>Hello, I'm</h4>
     <h1>Ijeoma Emeruwa</h1>
@@ -18,33 +21,41 @@ export const Hero = () => {
 
     <div className="contact_icons my-5">
     <a href="https://github.com/ijeomaemeruwa" target="_blank"  rel="noopener noreferrer">
-        <img src={require('../../assets/icons/github.svg')} alt="my github" />
+        <img src={require('../../assets/icons/github2.png')} alt="my github" />
     </a>
     <a href="https://linkedin.com/in/ijeomaemeruwa" target="_blank"  rel="noopener noreferrer">
-        <img src={require('../../assets/icons/linkedin.svg')} alt="my linkedin" />
+        <img src={require('../../assets/icons/linkedin.png')} alt="my linkedin" />
     </a>
     <a href="mailto:helloijeoma@gmail.com" target="_blank"  rel="noopener noreferrer">
-        <img src={require('../../assets/icons/mail.png')} alt="my mail" />
+        <img src={require('../../assets/icons/mail2.png')} alt="my mail" />
     </a>
     </div>
     </div> 
+    </Fade>
 
     <div className="about col-md-8">
-    <h3 className="strike">About me</h3>
+    <Fade>
+    <h2 className="strike">About me</h2>
     <br />
     <p>A self taught front end developer who enjoys developing 
-        an accesible and optimized user experience with front end technologies, and also learning 
+        an accesible and optimized user experience with front end tools, technologies, and also learning 
         about new practices to make my code readable and scalable for optimum performance.
     </p> 
     <p>When i'm not working on projects, i'm reading about open source, technical writing and exploring 
         new places to eat.
     </p>  
-    </div>    
-    </div> 
+    </Fade>   
+    </div>
+    </div>
 
     <div className="row container mx-auto btn_links">
-    <Link to="/resume" className="col-md-2 btn_text"><button>Resume {arrow}</button></Link>
-    <Link to="/projectpage" className="col-md-2 btn_text"><button>My projects {arrow}</button></Link>
+    <Fade bottom>
+    <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:5b77721c-2aa1-438e-8128-61c2f4aff47a#pageNum=1" 
+       className="btn-1" download="Ijeoma Emeruwa Resume">
+        Resume {arrow}
+    </a>
+    <Link to="/mywork" className="col-md-2 btn-2"><button>My projects {arrow}</button></Link>
+    </Fade>
     </div>
 
     <hr style={{ width: "70%", background: '#d5d5d5'}} className="my-5 mx-auto"/>      

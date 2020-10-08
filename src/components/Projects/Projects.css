@@ -1,3 +1,15 @@
 .projects_showcase {
     height: 100%;
 }
+
+.links a{
+    padding: 0 1rem;
+}
+
+.card-title {
+    color: var(--secondary-color);
+}
+
+small {
+    color: var(--button-color);
+}
