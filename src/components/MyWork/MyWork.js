@@ -8,8 +8,8 @@ export class MyWork extends Component {
           {
             id: 1,
             title: 'Compact App',
-            description: 'A client side application that uploads and saves url as files.Also, utilizes firebase firestore database to persist data offline and save to database',
-            image: <img src={require('../../assets/compact-desktop.png')} alt="compact app" style={{width: '100%', height: '300px'}}/>,
+            description: 'A client side application that uploads and saves url as files. Also, utilizes firebase firestore database to persist data offline and save to database',
+            image: '',
             technologies: '+HTML +CSS +Javascript +Firebase',
             github: 'https://github.com/ijeomaemeruwa/compact-app',
             live_link: 'https://compactapp.netlify.app/',

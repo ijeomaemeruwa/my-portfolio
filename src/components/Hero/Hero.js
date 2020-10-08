@@ -2,6 +2,7 @@ import React from 'react'
 import '../Hero/Hero.css'
 import { Link } from 'react-router-dom'
 import Fade from 'react-reveal/Fade';
+//import { Link, animateScroll as scroll } from "react-scroll";
 
 
 export const Hero = () => {
@@ -49,13 +50,11 @@ export const Hero = () => {
     </div>
 
     <div className="row container mx-auto btn_links">
-    <Fade bottom>
     <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:5b77721c-2aa1-438e-8128-61c2f4aff47a#pageNum=1" 
-       className="btn-1" download="Ijeoma Emeruwa Resume">
+       className="btn-1 col-md-2 col-lg-2" download="Ijeoma Emeruwa Resume">
         Resume {arrow}
     </a>
-    <Link to="/mywork" className="col-md-2 btn-2"><button>My projects {arrow}</button></Link>
-    </Fade>
+    <Link to="/mywork" className="col-md-2 col-lg-2 btn-2 ml-2">My projects {arrow}</Link>
     </div>
 
     <hr style={{ width: "70%", background: '#d5d5d5'}} className="my-5 mx-auto"/>      

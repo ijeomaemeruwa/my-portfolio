@@ -10,7 +10,7 @@ return (
     <div>
     <div className="projects_showcase">
     <Fade big>
-    <div className="card mb-3 mx-lg-auto mx-md-auto" style={{ maxWidth: '540px', background: '#111' }}>
+    <div className="card mb-5 mx-lg-auto mx-md-auto" style={{ maxWidth: '540px', background: '#111' }}>
     <div className="row no-gutters">
     <div className="col-md-10">
     <div className="card-body">

@@ -1,0 +1,26 @@
+.footer {
+    background: #b5c5d4;
+    max-width: 100%;
+}
+
+.footer_content {
+    padding: 5rem;
+}
+
+.footer_content h2, .footer_content p {
+   color: #fff;
+}
+
+.footer_content a {
+   color: var(--secondary-color) !important;
+   text-underline-position: below;
+   padding: 1rem;
+}
+
+.contact {
+    padding: 2rem;
+}
+
+.contact a {
+    padding: 0 1rem;
+}
