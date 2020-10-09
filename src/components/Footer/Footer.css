@@ -4,12 +4,17 @@
 }
 
 .footer_content {
-    padding: 5rem;
+    padding: 3rem;
 }
 
-.footer_content h2, .footer_content p {
+.footer_content h2, .footer_content h5 {
    color: #fff;
 }
+
+.footer_content h3 {
+    font-size: 3rem;
+}
+
 
 .footer_content a {
    color: var(--secondary-color) !important;
@@ -23,4 +28,14 @@
 
 .contact a {
     padding: 0 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    .footer_content h5 {
+        font-size: 1rem;
+    }
+
+    .footer_content h3, .contact h3 {
+        font-size: 1.5rem;
+    }
 }

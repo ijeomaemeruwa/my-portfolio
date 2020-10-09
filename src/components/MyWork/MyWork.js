@@ -13,7 +13,7 @@ export class MyWork extends Component {
             technologies: '+HTML +CSS +Javascript +Firebase',
             github: 'https://github.com/ijeomaemeruwa/compact-app',
             live_link: 'https://compactapp.netlify.app/',
-            message: 'Status: In progress'
+            message: 'Status: In Development'
           },
           {
             id: 2,
@@ -31,8 +31,8 @@ export class MyWork extends Component {
               description: 'A static travel, hotel and cargo bookings website with contact form and newsletter integrated with firebase and mailchimo respectively',
               image: '',
               technologies: '+React +React-Bootstrap +Firebase',
-              github: '',
-              live_link: '',
+              github: 'https://github.com/ijeomaemeruwa/gratiabookings',
+              live_link: 'https://gratiabookings-v1.netlify.app/',
               message: 'Staus: Private Repo'
             },
             {
@@ -43,7 +43,7 @@ export class MyWork extends Component {
               technologies: '+React +ContextAPI +REST API',
               github: 'https://github.com/ijeomaemeruwa/kanban_app',
               live_link: '',
-              message: 'Status: In progress'
+              message: 'Status: In Development'
             },
             {
               id: 5,
