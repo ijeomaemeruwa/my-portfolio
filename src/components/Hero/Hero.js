@@ -50,7 +50,7 @@ export const Hero = () => {
     </div>
 
     <div className="row container mx-auto btn_links">
-    <a href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:5b77721c-2aa1-438e-8128-61c2f4aff47a#pageNum=1" 
+    <a href="https://zety.com/mycv/ijeomaemeruwa" 
        className="btn-1 col-md-2 col-lg-2" download="Ijeoma Emeruwa Resume">
         Resume {arrow}
     </a>
