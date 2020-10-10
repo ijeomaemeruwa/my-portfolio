@@ -4,6 +4,7 @@ import { Navbar } from 'react-bootstrap'
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import { Home } from '../../pages/Home/Home'
 import { MyWork } from '../MyWork/MyWork'
+import { Footer } from '../Footer/Footer'
 
 
 
@@ -26,6 +27,7 @@ export const NavBar = () => {
         <Switch>
         <Route exact path="/"><Home /></Route>
         <Route exact path="/mywork"><MyWork /></Route>
+        <Route exact path="/contact"><Footer /></Route>
         </Switch>
         </Router>
       </div>
