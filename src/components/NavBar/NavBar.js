@@ -26,8 +26,8 @@ export const NavBar = () => {
 
         <Switch>
         <Route exact path="/"><Home /></Route>
-        <Route exact path="/mywork"><MyWork /></Route>
-        <Route exact path="/contact"><Footer /></Route>
+        <Route path="/mywork" component={MyWork} />
+        <Route path="/contact" component={Footer} />
         </Switch>
         </Router>
       </div>
