@@ -28,26 +28,18 @@ h2 {
     padding: 1.5rem;
     max-width: 600px;
     letter-spacing: 1px;
+    text-align: center;
     color: var(--tertiary-color);
     position: relative;
+    border-bottom: 1px solid #101010;
 }
 
-h2::after {
-    content: "";
-    display: block !important;
-    width: 50% !important;
-    position: absolute !important;
-    background: var(--tertiary-color) !important;
-    height: 2px !important;
-    top: 50%;
-    right: 0;
-    z-index: -2;
-}
 
 @media screen and (max-width: 480px) {
     h2{
         font-size: 3.5rem;
         font-weight: 700;
+        text-align: left;
         padding: 0.8rem;
         width: 100%;
     }
