@@ -1,8 +1,21 @@
 import React from 'react'
 import '../ProjectsSection/projectssection.scss'
-import { CustomButton, ButtonLink } from '../TopBar/TopBarElements'
-import { BsChevronRight } from 'react-icons/bs'
+//import { CustomButton, ButtonLink } from '../TopBar/TopBarElements'
+//import { BsChevronRight } from 'react-icons/bs'
 import {Link} from 'react-router-dom'
+// import oatts from '../../assets/images/'
+import compact from '../../assets/images/compact.png'
+import gratia from '../../assets/images/gratia.png'
+
+
+/*
+ <CustomButton className="projects_btn mx-auto">
+    <ButtonLink to="/projects">
+        View All <BsChevronRight />
+    </ButtonLink>
+    </CustomButton>
+*/
+
 
 const ProjectsSection = () => {
     return (
@@ -14,21 +27,38 @@ const ProjectsSection = () => {
     </div>
 
     <div className="project_preview row mx-auto">
-    <div className="col-md-7">
-    <img src={require('../../assets/images/compact_project.png')} alt="compact_project" />
+    <div className="col-md-6">
+    <img src={gratia} alt="ecommerce application" />
     </div>
-    <div className="col-md-5">
-     <h4>Compact App</h4>
+    <div className="col-md-6 my-auto">
+     <h4>Ecommerce Application</h4>
      <p>An app that saves url and files into a folder</p>
     <Link to="compact-project">View Project</Link>
     </div>
     </div>
 
-    <CustomButton className="projects_btn mx-auto">
-    <ButtonLink to="/projects">
-        View All <BsChevronRight />
-    </ButtonLink>
-    </CustomButton>
+    
+    <div className="project_preview row mx-auto">
+    <div className="col-md-6 my-auto text-right">
+     <h4>Compact App</h4>
+     <p></p>
+     <Link to="compact-project">View Project</Link>
+     </div>
+     <div className="col-md-6">
+    <img src={compact} alt="Compact app" />
+    </div>
+    </div>
+
+    <div className="project_preview row mx-auto">
+    <div className="col-md-6">
+    <img src={gratia} alt="Gratia Bookings" />
+    </div>
+    <div className="col-md-6  my-auto">
+     <h4>Gratia Bookings</h4>
+     <p></p>
+    <Link to="compact-project">View Project</Link>
+    </div>
+    </div>
     </div>
     </section>     
     </>

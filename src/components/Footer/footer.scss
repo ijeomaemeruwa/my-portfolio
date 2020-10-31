@@ -2,7 +2,7 @@
     background: var(--tertiary-color);
     color: #1f1f1f;
     height: 100%;
-    width: 100vw;
+    width: 100%;
 
 .footer_section {
     height: 90vh;
@@ -40,4 +40,20 @@ p {
 .social_links {
     padding: 2rem;
 }
+}
+
+@media screen and (max-width: 480px) {
+    .contact {
+        h3, h5 {
+            padding: 1rem;
+        }
+        
+        .mail, p {
+            width: 100%
+        }
+
+        .mail {
+            font-size: 1.5rem;
+        }
+    }
 }

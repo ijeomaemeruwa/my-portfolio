@@ -25,11 +25,15 @@ const TopBar = ({ isOpen, toggle }) => {
     <TopBarWrapper>
     <TopBarMenu>
     <TopBarLink 
-        to="about"
-        activeClass="active"
-        onClick={toggle}
-        >
-        About.
+    to="about"
+    activeClass="active"
+    spy={true}
+    smooth={true}
+    offset={-80}
+    duration={500}
+    onClick={toggle}
+    >
+    About.
     </TopBarLink>
 
     <TopBarLink to="projects"
@@ -40,14 +44,14 @@ const TopBar = ({ isOpen, toggle }) => {
      duration={500}
      onClick={toggle}
      >
-        Projects.
+    Projects.
     </TopBarLink>
 
     <TopBarLink to="contact"
     activeClass="active"
     onClick={toggle}
     >
-        Contact.
+    Contact.
     </TopBarLink>
 
     <Contact>

@@ -43,30 +43,34 @@ const NavBar = ({ toggle }) => {
 
     <NavMenu>
     <NavItem>
-        <NavLinks 
-         to="about"
+        <NavLinks to="aboutme"
          activeClass="active"
          spy={true}
          smooth={true}
+         offset={-80}
          duration={500}
-        >About</NavLinks>
+         >
+        About</NavLinks>
     </NavItem>
     <NavItem>
-        <NavLinks 
-        to="projects"
-        activeClass="active"
-        spy={true}
-        smooth={true}
-        duration={500}
-        >Projects</NavLinks>
+        <NavLinks to="projects"
+         activeClass="active"
+         spy={true}
+         smooth={true}
+         offset={-80}
+         duration={500}
+         >
+        Projects</NavLinks>
     </NavItem>
     <NavItem>
-        <NavLinks to="footer"
-        activeClass="active"
-        spy={true}
-        smooth={true}
-        duration={500}
-        >Contact</NavLinks>
+        <NavLinks to="contact"
+         activeClass="active"
+         spy={true}
+         smooth={true}
+         offset={-80}
+         duration={500}
+         >
+        Contact</NavLinks>
     </NavItem>
     <CustomButton>
     <ButtonLink to="https://zety.com/mycv/ijeomaemeruwa" download="Ijeoma Emeruwa Resume">
