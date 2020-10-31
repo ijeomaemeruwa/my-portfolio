@@ -1,0 +1,43 @@
+.footer {
+    background: var(--tertiary-color);
+    color: #1f1f1f;
+    height: 100%;
+    width: 100vw;
+
+.footer_section {
+    height: 90vh;
+    width: 100%;
+}
+}
+
+.contact {
+h3, h5 {
+    padding: 1rem;
+}
+
+p {
+    padding: 0.6rem 3rem;
+    background: var(--primary-color);
+    margin: 10px 0;
+    font-size: 2rem;
+    transition: 0.5s all ease;
+
+&:hover {
+    background: #101010;
+    transition: 0.5s all ease;
+}
+
+.mail {
+    text-decoration: none;
+    color: #feefea;
+
+&:hover {
+    color: var(--tertiary-color) !important;
+}
+}
+}
+
+.social_links {
+    padding: 2rem;
+}
+}

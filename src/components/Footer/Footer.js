@@ -1,28 +1,52 @@
 import React from 'react'
-import '../Footer/Footer.css'
+import '../Footer/footer.scss'
+import { Link } from 'react-router-dom'
+import { Contact, ContactLink } from '../TopBar/TopBarElements'
 
-export const Footer = () => {
+const Footer = () => {
     return (
-    <div>
-     <div className="footer">
-    <div className="footer_content text-center col-md-6 mx-auto">
-     <h2>Let's work together!</h2>
-     <h5>You can reach me anytime at:</h5>
-      <h3 className="mt-3"><a href="mailto:helloijeoma@gmail.com" target="_blank"  rel="noopener noreferrer">helloijeoma@gmail.com</a></h3>
-      </div>
-      <div className="contact col-md-6 text-center mx-auto">
-        <h3>Follow me and reach out:</h3>
-      <a href="https://github.com/ijeomaemeruwa" target="_blank"  rel="noopener noreferrer">
-        <img src={require('../../assets/icons/github2.png')} alt="my github" />
-     </a>
-     <a href="https://linkedin.com/in/ijeomaemeruwa" target="_blank"  rel="noopener noreferrer">
-        <img src={require('../../assets/icons/linkedin.png')} alt="my linkedin" />
-    </a>
-    <a href="https://twitter.com/ijeomaemeruwa" target="_blank"  rel="noopener noreferrer">
-        <img src={require('../../assets/icons/twitter2.png')} alt="my twitter" />
-    </a>
-      </div>
+    <>
+    <footer className="footer">
+    <div className="footer_section">
+
+    <div className="col-md-6 my-auto ml-3 text-left footer_header">
+    <h2><span style={{ color: "#000" }}>Contact.</span></h2> 
+    </div> 
+
+    <div className="footer_content col-md-6 col-sm-12 mx-auto my-3 text-left">
+    <div className="contact col-md-8 text-center mx-auto">
+    <h3>Get In Touch.</h3>
+    <h5>I'm open to collaborating, freelance, open source and full time roles.</h5>
+    <p>
+    <Link 
+    to="mailto:helloijeoma@gmail.com" 
+    className="mail"
+    target="_blank"  rel="noopener noreferrer">
+    helloijeoma@gmail.com
+    </Link>
+    </p>
+
+    <Contact className="social_links">
+    <ContactLink to="https://github.com/ijeomaemeruwa"  target="_blank" 
+     rel="noopener noreferrer">
+      GitHub
+    </ContactLink>
+    <ContactLink to="https://linkedin.com/in/ijeoma-emeruwa"  target="_blank" 
+     rel="noopener noreferrer">
+      LinkedIn
+    </ContactLink>
+    <ContactLink to="https://twitter.com/ijeomaemeruwa"  target="_blank" 
+     rel="noopener noreferrer">
+      Twitter
+    </ContactLink>      
+    </Contact>
+
+    </div> 
     </div>
-    </div>       
+    </div>     
+    </footer>       
+    </>
     )
 }
+
+export default Footer
