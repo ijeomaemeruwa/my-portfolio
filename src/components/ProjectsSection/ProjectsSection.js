@@ -36,7 +36,7 @@ const ProjectsSection = () => {
      redux to manage complex state such as multiple user authentication and adding items to cart.
      </p>
     <Link to="https://github.com/ijeomaemeruwa/react-oatts" 
-    className="project_link">View Project</Link>
+    className="project_link text-center">View Project</Link>
     </div>
     </div>
 
@@ -52,7 +52,7 @@ const ProjectsSection = () => {
      to filter and sort saved files.
      </p>
      <Link to="https://github.com/ijeomaemeruwa/compact-app" 
-     className="project_link">View Project</Link>
+     className="project_link text-center">View Project</Link>
      </div>
     </div>
 
@@ -64,7 +64,7 @@ const ProjectsSection = () => {
      <h4>Gratia Bookings</h4>
      <p></p>
     <Link to="https://github.com/ijeomaemeruwa/gratiabookings" 
-    className="project_link">View Project</Link>
+    className="project_link text-center">View Project</Link>
     </div>
     </div>
     </div>

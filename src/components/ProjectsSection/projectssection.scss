@@ -67,7 +67,10 @@ p {
     }
     }
     .project_link {
+        display: flex;
+        justify-content: center;
         text-align: center !important;
+        align-items: center;
     }
 }
 
