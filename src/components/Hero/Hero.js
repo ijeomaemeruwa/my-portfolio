@@ -1,7 +1,7 @@
 import React from 'react'
 import './hero.scss'
-import { CustomButton, ButtonLink } from '../TopBar/TopBarElements'
-import { BsChevronRight, BsChevronDown } from 'react-icons/bs'
+import { CustomButton, ScrollButton } from '../TopBar/TopBarElements'
+import { BsChevronDown } from 'react-icons/bs'
 
 const Hero = () => {
     return (
@@ -19,10 +19,17 @@ const Hero = () => {
     <h3>Front End Developer.</h3>
      
     <CustomButton className="btn">
-    <ButtonLink to="/projects">
-        Projects <BsChevronRight />
-    </ButtonLink>
-    </CustomButton>
+    <ScrollButton 
+     to="projects"
+     activeClass="active"
+     spy={true}
+     smooth={true}
+     offset={-80}
+     duration={500}
+    >
+    Projects 
+</ScrollButton>
+</CustomButton>
     <span className="scroll_down">
     <BsChevronDown />
     </span>

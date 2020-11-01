@@ -70,7 +70,9 @@ const TopBar = ({ isOpen, toggle }) => {
     </Contact>
 
     <CustomButton>
-    <TopNavButton to="https://zety.com/mycv/ijeomaemeruwa" download="Ijeoma Emeruwa Resume">
+    <TopNavButton to="https://zety.com/mycv/emeruwa-ijeoma2" 
+
+    download="Ijeoma Emeruwa Resume">
         RESUME <BsChevronRight />
     </TopNavButton>
     </CustomButton>

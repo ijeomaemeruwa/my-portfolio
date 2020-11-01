@@ -148,3 +148,27 @@ export const ButtonLink = styled(RouterLink)`
   }
 
 `;
+
+//Scroll Buttons
+
+export const ScrollButton = styled(ScrollLink)`
+  border: 2px solid var(--tertiary-color);
+  outline: none;
+  padding: 0.6rem 2rem;
+  background: transparent;
+  color: var(--tertiary-color) !important;
+  text-decoration: none !important;
+  transition: 0.4s ease-in-out;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+
+  &:hover {
+    background: var(--tertiary-color);
+    color: #000 !important;
+    border: none;
+    transition: 0.4s ease-in-out;  
+  }
+
+`;

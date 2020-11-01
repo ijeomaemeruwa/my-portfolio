@@ -43,7 +43,7 @@ const NavBar = ({ toggle }) => {
 
     <NavMenu>
     <NavItem>
-        <NavLinks to="aboutme"
+        <NavLinks to="about"
          activeClass="active"
          spy={true}
          smooth={true}
@@ -73,7 +73,8 @@ const NavBar = ({ toggle }) => {
         Contact</NavLinks>
     </NavItem>
     <CustomButton>
-    <ButtonLink to="https://zety.com/mycv/ijeomaemeruwa" download="Ijeoma Emeruwa Resume">
+    <ButtonLink to="https://zety.com/mycv/emeruwa-ijeoma2" 
+    download="Ijeoma Emeruwa Resume">
         Resume <BsChevronRight />
     </ButtonLink>
     </CustomButton>

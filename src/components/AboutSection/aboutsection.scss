@@ -1,5 +1,5 @@
 .about_section {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background: var(--primary-color);
 
@@ -7,23 +7,21 @@
     height: 100vh;
     width: 100%;
 
-.about_header, .about_text {
+.about_text {
     padding: 1rem;
-}
 
 p {
     letter-spacing: 2px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #feefea;  
+}
 }
 }
 }
 
 @media screen and (max-width: 480px) {
-    p {
-        max-width: 100%;
-        padding: 0 1rem;
-        font-size: 0.7rem;
+    .about_text p {
+        font-size: 0.8rem;
     }
 }
 
