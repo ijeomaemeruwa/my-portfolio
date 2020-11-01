@@ -3,7 +3,7 @@ import '../ProjectsSection/projectssection.scss'
 //import { CustomButton, ButtonLink } from '../TopBar/TopBarElements'
 //import { BsChevronRight } from 'react-icons/bs'
 import {Link} from 'react-router-dom'
-// import oatts from '../../assets/images/'
+import oatts from '../../assets/images/oatts.png'
 import compact from '../../assets/images/compact.png'
 import gratia from '../../assets/images/gratia.png'
 
@@ -28,35 +28,38 @@ const ProjectsSection = () => {
 
     <div className="project_preview row mx-auto">
     <div className="col-md-6">
-    <img src={gratia} alt="ecommerce application" />
+    <img src={oatts} alt="ecommerce application" />
     </div>
-    <div className="col-md-6 my-auto">
+    <div className="col-md-6 my-auto text-center p-2">
      <h4>Ecommerce Application</h4>
-     <p>An app that saves url and files into a folder</p>
-    <Link to="compact-project">View Project</Link>
+     <p></p>
+    <Link to="https://github.com/ijeomaemeruwa/react-oatts" 
+    className="project_link">View Project</Link>
     </div>
     </div>
 
     
     <div className="project_preview row mx-auto">
-    <div className="col-md-6 my-auto text-right">
-     <h4>Compact App</h4>
-     <p></p>
-     <Link to="compact-project">View Project</Link>
-     </div>
-     <div className="col-md-6">
+    <div className="col-md-6">
     <img src={compact} alt="Compact app" />
     </div>
+    <div className="col-md-6 my-auto text-center p-2">
+     <h4>Compact App</h4>
+     <p></p>
+     <Link to="https://github.com/ijeomaemeruwa/compact-app" 
+     className="project_link">View Project</Link>
+     </div>
     </div>
 
     <div className="project_preview row mx-auto">
     <div className="col-md-6">
     <img src={gratia} alt="Gratia Bookings" />
     </div>
-    <div className="col-md-6  my-auto">
+    <div className="col-md-6 my-auto text-center p-2">
      <h4>Gratia Bookings</h4>
      <p></p>
-    <Link to="compact-project">View Project</Link>
+    <Link to="https://github.com/ijeomaemeruwa/gratiabookings" 
+    className="project_link">View Project</Link>
     </div>
     </div>
     </div>
