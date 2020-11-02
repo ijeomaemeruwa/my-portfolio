@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Footer/footer.scss'
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 import { Contact, ContactLink } from '../TopBar/TopBarElements'
 
 const Footer = () => {
@@ -18,24 +18,24 @@ const Footer = () => {
     <h3>Get In Touch.</h3>
     <h5>I'm open to collaborating, freelance, open source and full time roles.</h5>
     <p>
-    <Link 
-    to="mailto:helloijeoma@gmail.com" 
+    <a 
+    href="mailto:helloijeoma@gmail.com" 
     className="mail"
     target="_blank"  rel="noopener noreferrer">
     helloijeoma@gmail.com
-    </Link>
+    </a>
     </p>
 
     <Contact className="social_links">
-    <ContactLink to="https://github.com/ijeomaemeruwa"  target="_blank" 
+    <ContactLink href="https://github.com/ijeomaemeruwa"  target="_blank" 
      rel="noopener noreferrer">
       GitHub
     </ContactLink>
-    <ContactLink to="https://linkedin.com/in/ijeoma-emeruwa"  target="_blank" 
+    <ContactLink href="https://linkedin.com/in/ijeoma-emeruwa"  target="_blank" 
      rel="noopener noreferrer">
       LinkedIn
     </ContactLink>
-    <ContactLink to="https://twitter.com/ijeomaemeruwa"  target="_blank" 
+    <ContactLink href="https://twitter.com/ijeomaemeruwa"  target="_blank" 
      rel="noopener noreferrer">
       Twitter
     </ContactLink>      

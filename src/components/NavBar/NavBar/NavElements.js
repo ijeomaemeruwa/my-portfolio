@@ -8,7 +8,7 @@ import { Link as ScrollLink } from 'react-scroll'
  //  z-index: 10;
 
 export const Nav = styled.nav`
-  background: #101010;
+  background: #000;
   color: var(--secondary-color);
   display: flex;
   justify-content: center;

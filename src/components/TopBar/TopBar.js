@@ -55,23 +55,24 @@ const TopBar = ({ isOpen, toggle }) => {
     </TopBarLink>
 
     <Contact>
-    <ContactLink to="https://github.com/ijeomaemeruwa"  target="_blank" 
+    <ContactLink href="https://github.com/ijeomaemeruwa"  target="_blank" 
      rel="noopener noreferrer">
       GitHub
     </ContactLink>
-    <ContactLink to="https://linkedin.com/in/ijeoma-emeruwa"  target="_blank" 
+    <ContactLink href="https://linkedin.com/in/ijeoma-emeruwa"  target="_blank" 
      rel="noopener noreferrer">
       LinkedIn
     </ContactLink>
-    <ContactLink to="https://twitter.com/ijeomaemeruwa"  target="_blank" 
+    <ContactLink href="https://twitter.com/ijeomaemeruwa"  target="_blank" 
      rel="noopener noreferrer">
       Twitter
     </ContactLink>      
     </Contact>
 
     <CustomButton>
-    <TopNavButton to="https://zety.com/mycv/emeruwa-ijeoma2" 
-
+    <TopNavButton href="https://zety.com/mycv/emeruwa-ijeoma2" 
+    target="_blank" 
+    rel="noopener noreferrer"
     download="Ijeoma Emeruwa Resume">
         RESUME <BsChevronRight />
     </TopNavButton>

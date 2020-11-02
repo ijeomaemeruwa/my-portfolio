@@ -1,6 +1,7 @@
 import React from 'react'
-import { CustomButton, ButtonLink } from '../TopBar/TopBarElements'
+import { CustomButton } from '../TopBar/TopBarElements'
 import { BsChevronRight } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 import '../AboutSection/aboutsection.scss'
 
 const AboutSection = () => {
@@ -20,9 +21,9 @@ const AboutSection = () => {
     </p>
 
     <CustomButton className="btn">
-    <ButtonLink to="/aboutpage">
+    <Link to="/aboutpage" className="about_btn">
         More About Me <BsChevronRight />
-    </ButtonLink>
+    </Link>
     </CustomButton>
     </div> 
     </div>  

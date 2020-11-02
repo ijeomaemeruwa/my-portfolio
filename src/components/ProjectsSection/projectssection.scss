@@ -20,7 +20,9 @@ img {
 }
 
 .project_info {
+    background: #0d0d0d;
     padding: 1rem;
+    width: 100%;
 
 h4 {
     font-size: 2rem;
@@ -55,6 +57,7 @@ p {
     }
     .project_info {
         padding: 0.5rem;
+        margin-top: 10px;
     
     h4 {
         font-size: 1.5rem;

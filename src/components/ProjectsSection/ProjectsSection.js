@@ -1,20 +1,9 @@
 import React from 'react'
 import '../ProjectsSection/projectssection.scss'
-//import { CustomButton, ButtonLink } from '../TopBar/TopBarElements'
-//import { BsChevronRight } from 'react-icons/bs'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import oatts from '../../assets/images/oatts.png'
 import compact from '../../assets/images/compact.png'
 import gratia from '../../assets/images/gratia.png'
-
-
-/*
- <CustomButton className="projects_btn mx-auto">
-    <ButtonLink to="/projects">
-        View All <BsChevronRight />
-    </ButtonLink>
-    </CustomButton>
-*/
 
 
 const ProjectsSection = () => {
@@ -35,8 +24,13 @@ const ProjectsSection = () => {
      <p>A beauty ecommerce application built with <u>React</u>, <u>Redux</u>, <u>SASS</u>, <u>Firebase</u>. The application uses react to build the user interface and 
      redux to manage complex state such as multiple user authentication and adding items to cart.
      </p>
-    <Link to="https://github.com/ijeomaemeruwa/react-oatts" 
-    className="project_link text-center">View Project</Link>
+    <a href="https://github.com/ijeomaemeruwa/react-oatts" 
+    className="project_link text-center"
+    target="_blank" 
+    rel="noopener noreferrer"
+    >
+    View Project
+    </a>
     </div>
     </div>
 
@@ -51,8 +45,13 @@ const ProjectsSection = () => {
       that enables a user upload url and files to a <u>Firebase</u> database which provides persistence to the DOM and offline access and utilizing array methods 
      to filter and sort saved files.
      </p>
-     <Link to="https://github.com/ijeomaemeruwa/compact-app" 
-     className="project_link text-center">View Project</Link>
+     <a href="https://github.com/ijeomaemeruwa/compact-app" 
+     className="project_link text-center" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     >
+      View Project
+      </a>
      </div>
     </div>
 
@@ -63,8 +62,13 @@ const ProjectsSection = () => {
     <div className="col-md-6 col-sm-10 my-auto text-left p-3 project_info">
      <h4>Gratia Bookings</h4>
      <p></p>
-    <Link to="https://github.com/ijeomaemeruwa/gratiabookings" 
-    className="project_link text-center">View Project</Link>
+    <a href="https://github.com/ijeomaemeruwa/gratiabookings" 
+    className="project_link text-center"
+    target="_blank" 
+    rel="noopener noreferrer"
+    >
+    View Project
+    </a>
     </div>
     </div>
     </div>

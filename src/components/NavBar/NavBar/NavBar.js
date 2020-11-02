@@ -73,7 +73,9 @@ const NavBar = ({ toggle }) => {
         Contact</NavLinks>
     </NavItem>
     <CustomButton>
-    <ButtonLink to="https://zety.com/mycv/emeruwa-ijeoma2" 
+    <ButtonLink href="https://zety.com/mycv/emeruwa-ijeoma2" 
+    target="_blank"
+    rel="noopener noreferrer"
     download="Ijeoma Emeruwa Resume">
         Resume <BsChevronRight />
     </ButtonLink>

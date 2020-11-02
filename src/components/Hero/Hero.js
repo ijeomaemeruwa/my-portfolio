@@ -4,12 +4,13 @@ import { CustomButton, ScrollButton } from '../TopBar/TopBarElements'
 import { BsChevronDown } from 'react-icons/bs'
 
 const Hero = () => {
+
     return (
     <>
     <section className="hero_section">
     <div className="hero_container">
 
-    <div className="hero_header col-md-5 mt-2 ml-3 text-left">
+    <div className="hero_header col-md-5 mt-2 ml-3 text-left animate__animated animate__fadeInUp">
     <h2><span>Hello.</span></h2>
     </div>
 

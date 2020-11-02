@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { MdClose } from 'react-icons/md'
-import { Link as RouterLink } from 'react-router-dom'
+// import { Link as RouterLink } from 'react-router-dom'
 import { Link as ScrollLink } from 'react-scroll'
 
 export const TopBarContainer = styled.div`
@@ -84,7 +84,7 @@ export const Contact = styled.div`
   padding: 2rem;
 `;
 
-export const ContactLink = styled(RouterLink) `
+export const ContactLink = styled.a`
   padding: 1rem;
   font-size: 2rem;
   color: #1f1f1f !important;
@@ -107,7 +107,7 @@ export const CustomButton = styled.div`
   padding: 1.5rem;
 `;
 
-export const TopNavButton = styled(RouterLink)`
+export const TopNavButton = styled.a`
  border: none;
  outline: none;
  padding: 0.6rem 2rem;
@@ -127,7 +127,7 @@ export const TopNavButton = styled(RouterLink)`
 }
 `;
 
-export const ButtonLink = styled(RouterLink)`
+export const ButtonLink = styled.a`
   border: 2px solid var(--tertiary-color);
   outline: none;
   padding: 0.6rem 2rem;
