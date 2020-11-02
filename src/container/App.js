@@ -5,20 +5,20 @@ import ProjectsPage from '../pages/ProjectsPage/ProjectsPage'
 import ScrollToTop from '../components/ScrollToTop/ScrollToTop';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-
  
 
-function App() {
+function App({loading}) {
   return (
     <>
-      <ScrollToTop />
-
+    <ScrollToTop />
       <Router>
+      
       <Switch>
       <Route exact path="/" component={Home}/>
       <Route path="/aboutpage" component={AboutPage}/>
       <Route path="/projectspage" component={ProjectsPage}/>
       </Switch>
+      
       </Router>
       
     </>
