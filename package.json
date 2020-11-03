@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.18",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "animate.css-react": "^1.1.0",
     "bootstrap": "^4.5.3",
-    "fullpage.js": "^3.0.9",
     "gsap": "^3.5.1",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
@@ -20,6 +21,7 @@
     "react-scroll": "^1.8.1",
     "react-use": "^15.3.4",
     "styled-components": "^5.2.0",
+    "styled-loaders-react": "^1.1.0",
     "swiper": "^6.3.4",
     "web-vitals": "^0.2.4"
   },
