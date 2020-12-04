@@ -7,7 +7,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
  
 
-function App({loading}) {
+function App() {
   return (
     <>
     <ScrollToTop />

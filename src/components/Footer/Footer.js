@@ -1,49 +1,51 @@
 import React from 'react'
 import '../Footer/footer.scss'
-//import { Link } from 'react-router-dom'
-import { Contact, ContactLink } from '../TopBar/TopBarElements'
+
+import { VscGithub, VscMail } from 'react-icons/vsc'
+import { SiLinkedin } from 'react-icons/si'
+import { FaTwitterSquare } from 'react-icons/fa'
 
 const Footer = () => {
     return (
     <>
     <footer className="footer">
-    <div className="footer_section">
-
-    <div className="col-md-6 my-auto ml-3 text-left footer_header">
-    <h2><span style={{ color: "#000" }}>Contact.</span></h2> 
-    </div> 
-
-    <div className="footer_content col-md-6 col-sm-12 mx-auto my-3 text-left">
-    <div className="contact col-md-8 text-center mx-auto">
-    <h3>Get In Touch.</h3>
-    <h5>I'm open to collaborating, freelance, open source and full time roles.</h5>
+    <div className="footer_section container">
+    <div className="footer_contact col-md-6">
+    <h4>Work with me</h4>
     <p>
     <a 
     href="mailto:helloijeoma@gmail.com" 
     className="mail"
     target="_blank"  rel="noopener noreferrer">
-    helloijeoma@gmail.com
+    <VscMail /> helloijeoma@gmail.com 
     </a>
     </p>
-
-    <Contact className="social_links">
-    <ContactLink href="https://github.com/ijeomaemeruwa"  target="_blank" 
-     rel="noopener noreferrer">
-      GitHub
-    </ContactLink>
-    <ContactLink href="https://linkedin.com/in/ijeoma-emeruwa"  target="_blank" 
-     rel="noopener noreferrer">
-      LinkedIn
-    </ContactLink>
-    <ContactLink href="https://twitter.com/ijeomaemeruwa"  target="_blank" 
-     rel="noopener noreferrer">
-      Twitter
-    </ContactLink>      
-    </Contact>
-
     </div> 
+
+    <div className="footer_socials col-md-6">
+    <h4>Reach me:</h4>
+    <div className="socials">
+    <a 
+    href="https://github.com/ijeomaemeruwa" 
+    target="_blank"  rel="noopener noreferrer">
+    <VscGithub />
+    </a>
+    
+    <a 
+    href="https://linkedin.com/in/ijeoma-emeruwa" 
+    target="_blank"  rel="noopener noreferrer">
+    <SiLinkedin />
+    </a>
+    
+    <a 
+    href="https://twitter.com/ijeomaemeruwa" 
+    target="_blank"  rel="noopener noreferrer">
+    <FaTwitterSquare />
+    </a>
     </div>
-    </div>     
+
+    </div>
+    </div>    
     </footer>       
     </>
     )

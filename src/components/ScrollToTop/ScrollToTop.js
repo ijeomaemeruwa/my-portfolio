@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useWindowScroll } from 'react-use'
-import { VscArrowUp } from 'react-icons/vsc'
-import '../ScrollToTop/scrolltotop.scss'
+import { HiOutlineArrowUp } from 'react-icons/hi'
+import '../ScrollToTop/scrolltotop.css'
 
 const ScrollToTop = () => {
     const { y: pageYOffset } = useWindowScroll()
@@ -26,7 +26,7 @@ const ScrollToTop = () => {
     <div 
     className="scroll text-center" 
     onClick={handleScroll} >
-     <VscArrowUp className="icon" />     
+     <HiOutlineArrowUp className="icon" />     
     </div>      
     </>
     )

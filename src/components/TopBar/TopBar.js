@@ -80,7 +80,7 @@ const TopBar = ({ isOpen, toggle }) => {
 
     </TopBarMenu>
     </TopBarWrapper>
-    </TopBarContainer>     
+    </>     
     </>
 )
 }

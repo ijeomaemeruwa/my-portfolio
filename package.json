@@ -1,28 +1,27 @@
 {
-  "name": "folder",
+  "name": "portfolio-version-updates",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fullpage/react-fullpage": "^0.1.18",
     "@testing-library/jest-dom": "^5.11.5",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "animate.css-react": "^1.1.0",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.0",
+    "animejs": "^3.2.1",
     "bootstrap": "^4.5.3",
-    "gsap": "^3.5.1",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
+    "react-animate-on-scroll": "^2.1.5",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
-    "react-gsap": "^2.2.1",
     "react-icons": "^3.11.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
-    "react-scroll": "^1.8.1",
+    "react-spring": "^8.0.27",
+    "react-text-loop": "^2.3.0",
+    "react-transition-group": "^4.4.1",
     "react-use": "^15.3.4",
-    "styled-components": "^5.2.0",
+    "styled-components": "^5.2.1",
     "styled-loaders-react": "^1.1.0",
-    "swiper": "^6.3.4",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -48,6 +47,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {}
+  }
 }
