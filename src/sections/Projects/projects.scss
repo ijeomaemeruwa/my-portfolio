@@ -27,14 +27,14 @@ h4 {
     padding: 2rem;
     color: var(--dark-color);
 
-.img_container {
-    width: 100%;
+// .img_container {
+//     width: 100%;
 
-img {
-    width: 700px;
-    padding: 0.5rem;
-}
-}
+// img {
+//     width: 700px;
+//     padding: 0.5rem;
+// }
+// }
 
 .project_info {
     padding: 1rem;
@@ -59,6 +59,17 @@ small {
     margin: 5px 5px 5px 0;
     width: 100%;
 }
+
+.links {
+    text-decoration: none !important;
+
+p {
+    font-size: 1.5rem;
+    text-decoration: none !important;
+    color: #425466 !important;
+    padding: 0 1rem 0 0;
+}
+}
 }
 }
 }
@@ -73,14 +84,9 @@ small {
         padding: 1.5rem 0;
     }
     }
-
-    .img_container {
-        img {
-            width: 100% !important;
-        }
-    }
     
     .project_info {
+     padding: none;
     
     h4 {
         font-size: 1.2rem !important;

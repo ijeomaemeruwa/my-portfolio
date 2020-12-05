@@ -18,7 +18,7 @@ class Tools extends Component {
     <div className="skills_content container text-center">
 
     <div className="col-md-8 mx-auto text-center skills_header">
-     <h2>Tech Stack</h2>
+     <h3>Tech Stack</h3>
      <p>I work with a variety of tools and technologies and open to learning new and innovative technologies.</p>
     </div>
 

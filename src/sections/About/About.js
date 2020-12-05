@@ -9,7 +9,7 @@ const AboutSection = () => {
     <div className="about_content container text-center">
 
     <div className="col-md-10 mx-auto about_info text-left">
-     <h2 className="text-center">About Ijae...</h2>
+     <h3 className="text-center">About Ijae...</h3>
      <p>
      Progressive learning has always been a passion of mine, 
      and the opportunity to grow in a field where growth and innovation are at their peak means being 
@@ -20,7 +20,7 @@ const AboutSection = () => {
      I am passionate about working with people and companies that 
      share goals aligned with improving user experience, creating an 
      environment that fosters career growth for developers, and developing innovative solutions. 
-     In order to connect, collaborate an share my knowlege with developers across the world, I write technical articles and contribute to open source .
+     In order to connect, collaborate and share my knowlege with developers across the world, I write technical articles and contribute to open source .
      </p>
      <p>
      The future will involve me learning about cloud development and financial technology because the technology

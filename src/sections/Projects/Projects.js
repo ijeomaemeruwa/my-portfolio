@@ -1,13 +1,11 @@
-import React, {Component} from 'react'
-import './projects.scss'
+import React, {Component} from 'react';
+import './projects.scss';
 
-import PROJECT_DATA from '../../data/projectsdata'
+import PROJECT_DATA from '../../data/projectsdata';
+import Image from 'react-bootstrap/Image';
 
-// import pantry from '../../images/pantry.png'
-// import oatts from '../../images/homepage2.png'
 
 class Projects extends Component {
-
   state = {
     projectsCollection: PROJECT_DATA
   }
@@ -29,25 +27,23 @@ class Projects extends Component {
     {
      projectsCollection.map(project => (
       <div key={project.id} className="projects_container row mx-auto">
-
-      <div className="img_container col-md-7">
-      <img src={project.image} alt={project.title} />
+      <div className="col-md-6">
+      <Image src={project.image} alt={project.title} fluid />
       </div>
 
-      <div className="col-md-5 col-sm-10 my-auto text-left project_info">
+      <div className="m-auto text-left col-md-5 project_info">
       <h4>{project.title}</h4>
-
-      <div>{project.tags.tag.map((tag) => (
-         <small key={tag.id}>{tag.language}</small>
-      ))}
-      </div>
-
+      <div>
+        {project.tags.tag.map((tag) => (
+      <small key={tag.id}>{tag.language}</small>
+       ))
+        }
       <p>{project.description}</p>
-
-      {/* <div className="links row ml-2">
-       <p>Github</p>
-       <p>Live</p>
-      </div> */}
+       <div className="links row ml-2">
+       <p>{project.github}</p>
+       <p>{project.live}</p>
+      </div>
+      </div>
 
       </div>
       </div>

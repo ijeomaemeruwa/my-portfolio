@@ -1,6 +1,8 @@
 import pantry from '../images/pantry.png'
 import oatts from '../images/homepage2.png'
 
+import { VscLinkExternal, VscGithub } from 'react-icons/vsc';
+
 const PROJECT_DATA = [
 
     {
@@ -25,7 +27,7 @@ const PROJECT_DATA = [
                 ]
             },
         description: 'An application that lets users create, save, share and search for recipes.',
-        github: 'https://github.com/ijeomaemeruwa/pantry',
+        github: <a href="https://github.com/ijeomaemeruwa/pantry"><VscGithub /></a>,
         live: ''
     },
     {
@@ -49,9 +51,9 @@ const PROJECT_DATA = [
                 }
                 ]
             },
-        description: 'A beauty ecommerce application built from scratch with a checkout process and stripe payment integration.',
-        github: 'https://github.com/ijeomaemeruwa/react-oatts',
-        live: 'https://oatts-ecommerce.netlify.app/'
+        description: 'A beauty ecommerce application built with a checkout process and stripe payment integration.',
+        github: <a href="https://github.com/ijeomaemeruwa/react-oatts"><VscGithub /></a>,
+        live: <a href="https://oatts-ecommerce.netlify.app/"><VscLinkExternal /></a>
     }
 
 ];
