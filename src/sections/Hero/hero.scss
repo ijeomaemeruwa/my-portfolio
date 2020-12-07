@@ -4,7 +4,7 @@
 
 .hero_content {
     height: 100%;
-    padding: 6rem 2rem;
+    padding: 3rem 2rem 4rem 2rem;
 
 h1 {
     font-size: 4rem;
@@ -20,8 +20,11 @@ h2 {
     color: #313740;
 
 span {
-    padding: 0 0 1rem 0.8rem;
+    //padding: 0 0 1rem 0.8rem;
+    padding: 0.6rem;
     font-weight: 500;
+    background: var(--primary-color);
+    text-align: center;
 }
 }
 
@@ -37,6 +40,25 @@ p {
     line-height: normal;
     display: flex;
     justify-content: space-between;
+
+.hero_link {
+    padding: 15px 20px !important;
+    width: 200px;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    background: #000;
+    color: var(--white-color) !important;
+    transition: 0.6s all ease;
+
+    &:hover {
+      background: #e9d6c4;
+      color: var(--dark-color) !important;
+      transition: 0.6s all ease;
+    }
+}
 }
 }
 

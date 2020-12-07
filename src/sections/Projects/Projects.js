@@ -23,7 +23,7 @@ class Projects extends Component {
       <hr /> 
     </div>
 
-   <div>
+   <div className="projects">
     {
      projectsCollection.map(project => (
       <div key={project.id} className="projects_container row mx-auto">
@@ -40,8 +40,8 @@ class Projects extends Component {
         }
       <p>{project.description}</p>
        <div className="links row ml-2">
-       <p>{project.github}</p>
-       <p>{project.live}</p>
+       <a href={project.github}>GitHub</a>
+       <a href={project.live}>Demo</a>
       </div>
       </div>
 
