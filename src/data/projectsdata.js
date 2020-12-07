@@ -1,7 +1,8 @@
 import pantry from '../images/pantry.png'
 import oatts from '../images/homepage2.png'
+import wetranslate from '../images/weTranslate.png'
 
-import { VscLinkExternal, VscGithub } from 'react-icons/vsc';
+//import { VscLinkExternal, VscGithub } from 'react-icons/vsc';
 
 const PROJECT_DATA = [
 
@@ -27,7 +28,7 @@ const PROJECT_DATA = [
                 ]
             },
         description: 'An application that lets users create, save, share and search for recipes.',
-        github: <a href="https://github.com/ijeomaemeruwa/pantry"><VscGithub /></a>,
+        github: "https://github.com/ijeomaemeruwa/pantry",
         live: ''
     },
     {
@@ -52,9 +53,35 @@ const PROJECT_DATA = [
                 ]
             },
         description: 'A beauty ecommerce application built with a checkout process and stripe payment integration.',
-        github: <a href="https://github.com/ijeomaemeruwa/react-oatts"><VscGithub /></a>,
-        live: <a href="https://oatts-ecommerce.netlify.app/"><VscLinkExternal /></a>
-    }
+        github: "https://github.com/ijeomaemeruwa/react-oatts",
+        live: "https://oatts-ecommerce.netlify.app/"
+    },
+    {
+        id: '1',
+        image: wetranslate,
+        title: 'weTranslate',
+        tags: {
+            id: '103',
+            tag: [
+                {
+                    id: '007',
+                    language: 'React'
+                },
+                {
+                    id: '008',
+                    language: 'Sass'
+                },
+                {
+                    id: '009',
+                    language: 'Nodejs'
+                }
+                ]
+            },
+        description: 'A website for outsourcing translator talent, incorporating web internalization, nodejs auth and a chatbot.',
+        status: 'In Development Stage'
+        // github: "https://github.com/ijeomaemeruwa/pantry",
+        // live: ''
+    },
 
 ];
 
