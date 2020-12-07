@@ -28,7 +28,7 @@ class Projects extends Component {
      projectsCollection.map(project => (
       <div key={project.id} className="projects_container row mx-auto">
       <div className="col-md-6">
-      <Image src={project.image} alt={project.title} fluid />
+      <Image src={project.image} alt={project.title} className="image_box" fluid />
       </div>
 
       <div className="m-auto text-left col-md-5 project_info">

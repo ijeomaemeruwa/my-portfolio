@@ -23,10 +23,13 @@ h4 {
 }
 }
 
-
 .projects_container {
     padding: 3rem 0.8rem;
     color: var(--dark-color);
+
+.image_box {
+    box-shadow: 8px 9px 15px -2px rgba(26,20,20,0.31);
+}
 
 .project_info {
     padding: 1rem;
