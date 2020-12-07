@@ -23,13 +23,12 @@ const Hero = () => {
         </h2>
         <p>On a mission to make the web accessible and optimized for quality developer and user experience.
         </p>
-        <div className="row container hero_btn mx-auto col-md-10">
+        <div className="hero_btn mx-auto col-md-10">
         <a href="https://drive.google.com/file/d/1qqiOxujL1Ch7UbPcg83pzJl1WjgU5XM1/view" 
         className="hero_link"
         target="_blank"  rel="noopener noreferrer">
         Resume
         </a>
-            
         <Link to="/projects" className="hero_link">
             Projects
         </Link>
