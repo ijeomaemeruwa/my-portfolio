@@ -41,7 +41,7 @@ class Projects extends Component {
       <p>{project.description}</p>
        <div className="links row ml-2">
        <a href={project.github}>GitHub</a>
-       <a href={project.live}>Demo</a>
+       {/* <a href={project.live}>Demo</a> */}
       </div>
       </div>
 
