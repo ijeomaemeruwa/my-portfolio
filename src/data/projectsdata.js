@@ -39,15 +39,15 @@ const PROJECT_DATA = [
             id: '102',
             tag: [
                 {
-                    id: '003',
+                    id: '004',
                     language: 'React'
                 },
                 {
-                    id: '004',
+                    id: '005',
                     language: 'Sass'
                 },
                 {
-                    id: '005',
+                    id: '006',
                     language: 'Firebase'
                 }
                 ]
@@ -57,7 +57,7 @@ const PROJECT_DATA = [
         live: "https://oatts-ecommerce.netlify.app/"
     },
     {
-        id: '1',
+        id: '3',
         image: wetranslate,
         title: 'weTranslate',
         tags: {
@@ -78,8 +78,8 @@ const PROJECT_DATA = [
                 ]
             },
         description: 'A website for outsourcing translator talent, incorporating web internalization, nodejs auth and a chatbot.',
-        status: 'In Development Stage'
-        // github: "https://github.com/ijeomaemeruwa/pantry",
+        status: 'In Development Stage',
+        github: "https://github.com/ijeomaemeruwa/weTranslate",
         // live: ''
     },
 
