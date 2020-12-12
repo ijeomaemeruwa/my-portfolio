@@ -13,7 +13,7 @@ import {
     NavLink,
     NavButton,
     BtnLink,
-    BlogLink
+    //BlogLink
 } from '../NavBar/NavbarElements'
 
 
@@ -59,13 +59,13 @@ const NavBar = ({ toggle }) => {
     <NavLink to="/tools">Skills</NavLink >
     </NavItem>
 
-    <NavItem>
+    {/* <NavItem>
     <BlogLink href="https://helloijeoma.hashnode.dev"  
     target="_blank"  rel="noopener noreferrer"
     >
     Blog
     </BlogLink >
-    </NavItem>
+    </NavItem> */}
     </NavMenu>
 
     <NavButton>

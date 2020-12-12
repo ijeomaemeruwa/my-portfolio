@@ -16,7 +16,7 @@ import {
   MobileBtnWrap,
   SideNavButton,
   ResumeLink,
-  MobileBlogLink
+  //MobileBlogLink
 } from '../SideBar/SideBarElements'
 
 
@@ -37,11 +37,11 @@ const SideBar = ({ isOpen, toggle }) => {
 
     <MobileLink to="/tools" onClick={toggle}>Skills.</MobileLink>
 
-    <MobileBlogLink href="https://helloijeoma.hashnode.dev"  
+    {/* <MobileBlogLink href="https://helloijeoma.hashnode.dev"  
     target="_blank"  rel="noopener noreferrer"
     >
     Blog
-    </MobileBlogLink>
+    </MobileBlogLink> */}
 
     <SocialContact>
     <SocialLink 
