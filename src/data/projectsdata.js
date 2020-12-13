@@ -1,6 +1,6 @@
 import pantry from '../images/pantry.png'
 import oatts from '../images/homepage2.png'
-import wetranslate from '../images/weTranslate.png'
+import wetranslate from '../images/weTranslate2.png'
 
 //import { VscLinkExternal, VscGithub } from 'react-icons/vsc';
 
@@ -73,11 +73,15 @@ const PROJECT_DATA = [
                 },
                 {
                     id: '009',
-                    language: 'Nodejs'
+                    language: 'Node.js'
+                },
+                {
+                    id: '010',
+                    language: 'Express.js'
                 }
                 ]
             },
-        description: 'A website for outsourcing translator talent, incorporating web internalization, nodejs auth and a chatbot.',
+        description: 'A website for outsourcing translator talent, incorporating web internalization, nodejs jwt authentication and a chatbot.',
         status: 'In Development Stage',
         github: "https://github.com/ijeomaemeruwa/weTranslate",
         // live: ''

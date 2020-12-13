@@ -59,14 +59,15 @@ small {
 .links {
 
 a {
-    font-size: 1rem;
-    text-decoration: underline var(--secondary-color);
+    font-size: 1.5rem;
+    text-decoration: none;
     color: #425466;
     padding: 0 1rem 0 0;
     margin-right: 20px;
 
 &:hover {
     text-decoration: none;
+    color: var(--text-color);
 }
 }
 }
