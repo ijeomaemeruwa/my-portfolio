@@ -1,8 +1,6 @@
 import React from 'react'
 
-import { VscGithub } from 'react-icons/vsc'
-import { SiLinkedin } from 'react-icons/si'
-import { FaTwitterSquare } from 'react-icons/fa'
+import { FiGithub, FiTwitter, FiLinkedin } from 'react-icons/fi'
 
 import {
   SideBarContainer,
@@ -31,6 +29,8 @@ const SideBar = ({ isOpen, toggle }) => {
 
     <MenuWrapper>
     <MobileMenu>
+    <MobileLink to="/" onClick={toggle} >Home.</MobileLink>
+
     <MobileLink to="/about" onClick={toggle} >About.</MobileLink>
 
     <MobileLink to="/projects" onClick={toggle}>Projects.</MobileLink>
@@ -47,19 +47,19 @@ const SideBar = ({ isOpen, toggle }) => {
     <SocialLink 
     href="https://github.com/ijeomaemeruwa" 
     target="_blank"  rel="noopener noreferrer">
-    <VscGithub />
+    <FiGithub />
     </SocialLink>
     
     <SocialLink 
     href="https://linkedin.com/in/ijeoma-emeruwa" 
     target="_blank"  rel="noopener noreferrer">
-    <SiLinkedin />
+    <FiLinkedin />
     </SocialLink>
     
     <SocialLink 
     href="https://twitter.com/ijeomaemeruwa" 
     target="_blank"  rel="noopener noreferrer">
-    <FaTwitterSquare />
+    <FiTwitter />
     </SocialLink>     
     </SocialContact>
 

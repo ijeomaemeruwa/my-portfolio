@@ -54,7 +54,8 @@ export const MobileLink = styled(Link)`
    display: flex;
    align-items: center;
    justify-content: center;
-   font-size: 2.5rem;
+   font-size: 1.5rem;
+   letter-spacing: 1px;
    font-weight: 600;
    text-decoration: none;
    list-style none;
@@ -74,7 +75,8 @@ export const MobileBlogLink = styled.a`
 display: flex;
 align-items: center;
 justify-content: center;
-font-size: 2.5rem;
+font-size: 1.5rem;
+letter-spacing: 1px;
 font-weight: 600;
 text-decoration: none;
 list-style none;
@@ -99,7 +101,7 @@ export const SocialLink = styled.a`
   text-decoration: none;
   padding: 0 1rem;
   color: #feefea;
-  font-size: 2rem;
+  font-size: 1.5rem;
 
   &:hover {
     color: #feefea; 

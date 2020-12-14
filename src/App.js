@@ -8,7 +8,7 @@ import HomePage from './sections/HomePage/HomePage'
 import About from './sections/About/About'
 import Projects from './sections/Projects/Projects'
 import Tools from './sections/Tools/Tools'
-import Footer from './components/Footer/Footer'
+// import Footer from './components/Footer/Footer'
 
 
 
@@ -32,7 +32,6 @@ const App = () => {
       <Route exact path="/projects" component={Projects} />
       <Route exact path="/tools" component={Tools} />
     </Switch>
-    <Footer />
     </Router>
     </>
     )

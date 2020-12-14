@@ -3,8 +3,7 @@ import './projects.scss';
 
 import PROJECT_DATA from '../../data/projectsdata';
 import Image from 'react-bootstrap/Image';
-import { VscGithubInverted } from 'react-icons/vsc';
-// VscLink
+import { FiGithub, FiLink } from 'react-icons/fi';
 
 class Projects extends Component {
   state = {
@@ -41,8 +40,8 @@ class Projects extends Component {
         }
       <p>{project.description}</p>
        <div className="links row ml-2">
-       <a href={project.github}><VscGithubInverted /></a>
-       {/* <a href={project.live}><VscLink /></a> */}
+       <a href={project.github}><FiGithub /></a>
+       <a href={project.live}><FiLink /></a>
       </div>
       </div>
 

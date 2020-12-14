@@ -19,7 +19,6 @@
 body {
   background: var(--white-color) !important;
   scroll-behavior: smooth;
-  /* font-family: 'Poppins', sans-serif !important; */
   font-family: 'Jost', sans-serif !important;
   text-rendering: optimizeLegibility;
 }
