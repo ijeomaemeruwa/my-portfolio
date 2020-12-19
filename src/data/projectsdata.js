@@ -1,11 +1,41 @@
-import pantry from '../images/pantry.png'
-import oatts from '../images/homepage2.png'
-import wetranslate from '../images/weTranslate2.png'
+import pantry from '../images/pantryproject.png'
+import oatts from '../images/oatts.png'
+import wetranslate from '../images/we.png'
 
 //import { VscLinkExternal, VscGithub } from 'react-icons/vsc';
 
 const PROJECT_DATA = [
-
+    
+    {
+        id: '3',
+        image: wetranslate,
+        title: 'weTranslate',
+        tags: {
+            id: '103',
+            tag: [
+                {
+                    id: '007',
+                    language: 'React'
+                },
+                {
+                    id: '008',
+                    language: 'Sass'
+                },
+                {
+                    id: '009',
+                    language: 'Node.js'
+                },
+                {
+                    id: '010',
+                    language: 'Express.js'
+                }
+                ]
+            },
+        description: 'A website for outsourcing translator talent, incorporating web internalization, nodejs jwt authentication and a chatbot.',
+        status: 'In Development Stage',
+        github: "https://github.com/ijeomaemeruwa/weTranslate",
+        // live: ''
+    },
     {
         id: '1',
         image: pantry,
@@ -55,38 +85,7 @@ const PROJECT_DATA = [
         description: 'A beauty ecommerce application built with a checkout process and stripe payment integration.',
         github: "https://github.com/ijeomaemeruwa/react-oatts",
         live: "https://oatts-ecommerce.netlify.app/"
-    },
-    {
-        id: '3',
-        image: wetranslate,
-        title: 'weTranslate',
-        tags: {
-            id: '103',
-            tag: [
-                {
-                    id: '007',
-                    language: 'React'
-                },
-                {
-                    id: '008',
-                    language: 'Sass'
-                },
-                {
-                    id: '009',
-                    language: 'Node.js'
-                },
-                {
-                    id: '010',
-                    language: 'Express.js'
-                }
-                ]
-            },
-        description: 'A website for outsourcing translator talent, incorporating web internalization, nodejs jwt authentication and a chatbot.',
-        status: 'In Development Stage',
-        github: "https://github.com/ijeomaemeruwa/weTranslate",
-        // live: ''
-    },
-
+    }
 ];
 
 export default PROJECT_DATA;

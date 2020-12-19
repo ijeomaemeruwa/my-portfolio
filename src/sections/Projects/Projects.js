@@ -4,6 +4,8 @@ import './projects.scss';
 import PROJECT_DATA from '../../data/projectsdata';
 import Image from 'react-bootstrap/Image';
 import { FiGithub, FiLink } from 'react-icons/fi';
+import Zoom from 'react-reveal/Zoom';
+
 
 class Projects extends Component {
   state = {
@@ -25,13 +27,14 @@ class Projects extends Component {
 
    <div className="projects">
     {
-     projectsCollection.map(project => (
+     projectsCollection.map((project) => (
       <div key={project.id} className="projects_container row mx-auto">
       <div className="col-md-6">
       <Image src={project.image} alt={project.title} className="image_box" fluid />
       </div>
 
       <div className="m-auto text-left col-md-5 project_info">
+      <Zoom>
       <h4>{project.title}</h4>
       <div>
         {project.tags.tag.map((tag) => (
@@ -44,9 +47,9 @@ class Projects extends Component {
        <a href={project.live}><FiLink /></a>
       </div>
       </div>
-
+      </Zoom>
       </div>
-      </div>
+      </div> 
      ))
     }
    </div>
