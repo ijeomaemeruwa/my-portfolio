@@ -8,7 +8,6 @@ import HomePage from './sections/HomePage/HomePage'
 import About from './sections/About/About'
 import Projects from './sections/Projects/Projects'
 import Tools from './sections/Tools/Tools'
-// import Footer from './components/Footer/Footer'
 
 
 
@@ -25,7 +24,6 @@ const App = () => {
     <SideBar isOpen={isOpen} toggle={toggle} />
     <NavBar toggle={toggle}/>
    
-
     <Switch>
       <Route exact path="/" component={HomePage} />
       <Route exact path="/about" component={About} />

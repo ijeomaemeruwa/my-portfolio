@@ -4,7 +4,6 @@ import './projects.scss';
 import PROJECT_DATA from '../../data/projectsdata';
 import Image from 'react-bootstrap/Image';
 import { FiGithub, FiLink } from 'react-icons/fi';
-import Zoom from 'react-reveal/Zoom';
 
 
 class Projects extends Component {
@@ -34,7 +33,6 @@ class Projects extends Component {
       </div>
 
       <div className="m-auto text-left col-md-5 project_info">
-      <Zoom>
       <h4>{project.title}</h4>
       <div>
         {project.tags.tag.map((tag) => (
@@ -47,7 +45,6 @@ class Projects extends Component {
        <a href={project.live}><FiLink /></a>
       </div>
       </div>
-      </Zoom>
       </div>
       </div> 
      ))
