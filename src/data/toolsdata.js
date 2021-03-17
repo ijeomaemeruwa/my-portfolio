@@ -1,12 +1,11 @@
 import { GrHtml5, GrCss3, GrReactjs } from 'react-icons/gr'
-import { SiJavascript, SiFirebase,  SiMongodb } from 'react-icons/si'
+import { SiJavascript, SiMongodb } from 'react-icons/si'
 import { BsBootstrap } from 'react-icons/bs'
 import { BiGitRepoForked} from 'react-icons/bi'
 import { FaNodeJs, FaSass } from 'react-icons/fa'
 // SiGraphql , GrAccessibility, GrMysql, SiGraphql, SiApollographql, SiAmazonaws
 
 const TOOLS_DATA = [
-
     {
         id: '1',
         icon: <GrHtml5 />,
@@ -44,19 +43,19 @@ const TOOLS_DATA = [
     },
     {
         id: '8',
-        icon: <FaNodeJs />,
-        tools: 'Node.js(Express)'
+        icon: <GrReactjs />,
+        tools: 'Redux Toolkit'
     },
     {
         id: '9',
-        icon: <SiMongodb />,
-        tools: 'MongoDB'
+        icon: <FaNodeJs />,
+        tools: 'Node.js(Express.js)'
     },
     {
         id: '10',
-        icon: <SiFirebase />,
-        tools: 'Firebase'
-    }
+        icon: <SiMongodb />,
+        tools: 'MongoDB'
+    },
 ]
 
 export default TOOLS_DATA;

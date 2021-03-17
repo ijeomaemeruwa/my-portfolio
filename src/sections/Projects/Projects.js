@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import './projects.scss';
-
 import PROJECT_DATA from '../../data/projectsdata';
 import Image from 'react-bootstrap/Image';
-import { FiGithub, FiLink } from 'react-icons/fi';
+import { FiGithub } from 'react-icons/fi';
+// FiLink
 
 
 class Projects extends Component {
@@ -14,11 +14,11 @@ class Projects extends Component {
 
   render() {
     const { projectsCollection } = this.state;
+    
     return (
     <>
     <section className="projects_section">
      <div className="projects_content">
-
     <div className="project_header">
       <h3>Projects</h3> 
       <hr /> 
@@ -42,7 +42,7 @@ class Projects extends Component {
       <p>{project.description}</p>
        <div className="links row ml-2">
        <a href={project.github}><FiGithub /></a>
-       <a href={project.live}><FiLink /></a>
+       {/* <a href={project.live}><FiLink /></a> */}
       </div>
       </div>
       </div>

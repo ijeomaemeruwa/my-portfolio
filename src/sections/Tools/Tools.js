@@ -27,7 +27,7 @@ class Tools extends Component {
       {
         toolsCollection.map(tools => (
         <div key={tools.id} className="cards">
-          {tools.icon}
+          <span>{tools.icon}</span>
           <p>{tools.tools}</p>
         </div> 
         ))

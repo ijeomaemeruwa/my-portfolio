@@ -7,7 +7,6 @@ const AboutSection = () => {
     <section className="about">
     <div className="about_container">
     <div className="about_content container text-center">
-
     <div className="col-md-10 mx-auto about_info text-left">
      <h3 className="text-center">About Ijae...</h3>
      <p>
@@ -20,10 +19,9 @@ const AboutSection = () => {
      I am passionate about working with people and companies that 
      share goals aligned with improving user experience, creating an 
      environment that fosters career growth for developers, and developing innovative solutions. 
-     In order to connect, gain or share knowlege and collaborate with developers across the world, I write technical articles and contribute to open source .
      </p>
      <p>
-     The future will involve me learning about cloud development and financial technology because the technology
+     The future will involve me learning about UI/UX Design and Financial technology because the technology
      field has given inidviduals the opportunity to expand on technical skills that solve problems in various sectors.
      </p>
      <p>

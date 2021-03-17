@@ -131,7 +131,7 @@ export const BtnLink = styled.a`
    border: none;
    background: var(--dark-color);
    color: #fefefe;
-   padding: 10px 25px;
+   padding: 5px 25px;
    font-size: 1.2rem;
   font-weight: 500;
    letter-spacing: 2px;
